@@ -1,0 +1,37 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.accessibility",
+    "_displayName": "Accessibility",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Accessibility"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Accessibility actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Accessibility.VisionUtility.html",
+    "_icon": "Accessibility",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Accessibility/Actions/VisionUtility/VisionUtilityGetColorBlindSafePalette.cs",
+            "_guid": "e971022d47dfae747b244ac9ca05e4f6",
+            "_checkSum": "c955b5713064b08d813a56da7b7c269a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b92",
+    "_datePublished": "2026-10-24",
+    "_timeCode": 134373341122336525
+}

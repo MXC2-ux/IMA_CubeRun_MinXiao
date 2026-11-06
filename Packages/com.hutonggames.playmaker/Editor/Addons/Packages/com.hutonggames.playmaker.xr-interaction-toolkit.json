@@ -1,0 +1,50 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.xr-interaction-toolkit",
+    "_displayName": "XR Interaction Toolkit",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/XRInteractionToolkit"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [
+        {
+            "Name": "com.unity.xr.interaction.toolkit",
+            "MinimumVersion": "2.0.0",
+            "MaximumVersionExclusive": ""
+        }
+    ],
+    "_minimumUnityVersion": "2022.3",
+    "_summary": "PlayMaker actions for XR Interaction Toolkit UI events.",
+    "_description": "Send pointer down and click events from the XR UI Input Module, with an optional Canvas filter.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.0/manual/ui-setup.html",
+    "_icon": "InputSystem",
+    "_tags": [
+        "Actions",
+        "UI",
+        "XR"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/XRInteractionToolkit/HutongGames.PlayMaker.XRInteractionToolkit.asmdef",
+            "_guid": "cf5e95b461e84edbad823a8b7337cd62",
+            "_checkSum": "11cc0dd766077885c95c85c9121730fd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/XRInteractionToolkit/Actions/XRUIInputModulePointerEvent.cs",
+            "_guid": "a928edafe18344e9b9197e366b1ec7f9",
+            "_checkSum": "c76cdab3478b5334deb9064881db8cc5"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b92",
+    "_datePublished": "2026-10-24",
+    "_timeCode": 134373341423300565
+}

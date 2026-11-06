@@ -1,0 +1,63 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.samples.shared-3d",
+    "_displayName": "Shared 3D Models",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Assets/Samples/PlayMaker/Shared3D"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Reusable 3D models and animations for PlayMaker samples.",
+    "_description": "Shared 3D assets for sample scenes, including the Universal Animation Library mannequin. Import this addon with samples that use these assets.",
+    "_helpUrl": "",
+    "_icon": "LearnIcon",
+    "_tags": [
+        "Animation",
+        "3D"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared3D/Models/UniversalAnimationLibrary/License.txt",
+            "_guid": "b067ef225f45d4a40b70f6a349e00acd",
+            "_checkSum": "06c8f7827dada2805ab1aa5cbee3bdaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared3D/Models/UniversalAnimationLibrary/README.txt",
+            "_guid": "4ec97d3a250781c43a6da364327f60fb",
+            "_checkSum": "532340a88145c632a0f7d302cdb4d671"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared3D/Models/UniversalAnimationLibrary/UAL1_Animator.controller",
+            "_guid": "a9bde1da5a7c14c4eb77d35bc7f8c114",
+            "_checkSum": "a9d8a8c3a7bb60a9ff048b0a56cd227f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared3D/Models/UniversalAnimationLibrary/UAL1_Standard.fbx",
+            "_guid": "50f3f6ebe8ed7d64fa479019dd826b13",
+            "_checkSum": "0b7bc999aa99310d9466364d3d060be5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared3D/Models/UniversalAnimationLibrary/UAL1_Standard_RM.fbx",
+            "_guid": "592c82cfaf7781743851ff326c59e7cf",
+            "_checkSum": "89c7a4a0fa3cc9bc9214f03ddd759a92"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared3D/Models/UniversalAnimationLibrary/Unity_Setup.png",
+            "_guid": "1babd433748622743800fb79945475c7",
+            "_checkSum": "c2aafe803d28266668efd5617a886598"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b92",
+    "_datePublished": "2026-10-24",
+    "_timeCode": 134373340995848757
+}

@@ -1,0 +1,136 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Settings/PlayMakerSettings.uss?fileID=7433441132597879392&amp;guid=e49025306ed4c3a4fb762e88df879f46&amp;type=3#PlayMakerSettings" />
+    <ui:ScrollView class="hutong-editor-settings__scroll-view" horizontal-scroller-visibility="Hidden">
+        <ui:VisualElement class="hutong-editor-settings">
+            <ui:Label name="titleLabel" text="PlayMaker" enable-rich-text="false" picking-mode="Ignore" class="unity-text-element unity-label hutong-editor-settings__title" />
+        
+        <ui:VisualElement class="hutong-settings-card">
+            <ui:VisualElement class="hutong-editor-settings__header-row">
+                <ui:Label text="RUNTIME" name="runtime-settings" class="hutong-editor-settings__header" />
+            </ui:VisualElement>
+            <ui:Toggle name="debug-display" label="Debug display" class="hutong-setting" tooltip="Enable debug display in editor and development builds. Always disabled in release builds."/>
+            
+            <ui:VisualElement class="setting-row">
+                <ui:IntegerField
+                    label="Compact mode"
+                    name="compact-mode-max-label-length"
+                    class="hutong-setting compact-mode-limit"
+                    tooltip="Maximum label length used by compact debug labels before truncation." />
+                <ui:Label text="chars" class="unit-suffix" />
+            </ui:VisualElement>
+
+            <ui:FloatField
+                name="debug-panel-scale"
+                label="Debug panel scale"
+                class="hutong-setting"
+                tooltip="Scale multiplier for runtime debug panels." />
+            
+        </ui:VisualElement>
+        
+        <ui:VisualElement class="hutong-settings-card">
+            <ui:VisualElement class="hutong-editor-settings__header-row">
+                <ui:Label text="GENERAL" class="hutong-editor-settings__header" />
+            </ui:VisualElement>
+            <ui:Toggle label="Prefab Instance Mode" class="hutong-setting" tooltip="Require Edit Prefab Instance before changing an FSM on a prefab instance." binding-path="_gatePrefabInstanceEditing" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="hutong-settings-card">
+            <ui:VisualElement class="hutong-editor-settings__header-row">
+                <ui:Label text="GRAPH VIEW" name="graph-view-settings" class="hutong-editor-settings__header" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="setting-row multi-column">
+                <ui:Label text="Zoom range" tooltip="Zoom limits and default. Adjust the default if you prefer a smaller or larger view." class="setting-label" />
+    
+                <ui:VisualElement class="column-container">
+                    <ui:VisualElement class="value-column">
+                        <ui:Label text="MIN" class="column-header" />
+                        <ui:FloatField name="zoom-min" binding-path="_fsmGraphViewSettings._minZoom" />
+                    </ui:VisualElement>
+
+                    <ui:VisualElement class="value-column">
+                        <ui:Label text="MAX" class="column-header" />
+                        <ui:FloatField name="zoom-max" binding-path="_fsmGraphViewSettings._maxZoom" />
+                    </ui:VisualElement>
+
+                    <ui:VisualElement class="value-column">
+                        <ui:Label text="DEFAULT" class="column-header" />
+                        <ui:FloatField name="zoom-default" binding-path="_fsmGraphViewSettings._defaultZoom"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                
+            </ui:VisualElement>
+            <ui:FloatField
+                label="Zoom sensitivity"
+                class="hutong-setting"
+                tooltip="Scales mouse wheel zoom speed. 1 uses the default per-platform behavior. Higher values zoom faster; lower values zoom slower."
+                binding-path="_fsmGraphViewSettings._mouseWheelZoomSensitivity" />
+            <ui:EnumField name="default-link-style" class="hutong-setting" label="Default link style" tooltip="The default style to use for all transition links. Can be overridden in the Transition Inspector." value="Bezier" binding-path="_fsmGraphViewSettings._defaultLinkStyle"/>
+            <ui:FloatField
+                label="Global transition offset"
+                class="hutong-setting"
+                tooltip="Vertical offset from state used when adding a global transition."
+                binding-path="_fsmGraphViewSettings._globalTransitionOffset"
+                is-delayed="true"/>
+            <ui:Toggle label="Snapping" class="hutong-setting" tooltip="Enable snapping of elements to the edges and center of other elements." binding-path="_fsmGraphViewSettings._snapping" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="hutong-settings-card">
+            <ui:VisualElement class="hutong-editor-settings__header-row">
+                <ui:Label text="NODE DESCRIPTIONS" class="hutong-editor-settings__header" />
+            </ui:VisualElement>
+            <ui:Toggle label="FSMs and Regions" class="hutong-setting" tooltip="Show descriptions inside FSM and region frames in the Graph View." binding-path="_fsmGraphViewSettings._showRegionDescriptions" />
+            <ui:Toggle label="States" class="hutong-setting" tooltip="Show descriptions below states in the Graph View." binding-path="_fsmGraphViewSettings._showStateDescriptions" />
+            <ui:Toggle label="Global Transitions" class="hutong-setting" tooltip="Show descriptions below global transitions in the Graph View." binding-path="_fsmGraphViewSettings._showGlobalTransitionDescriptions" />
+        </ui:VisualElement>
+        
+        <ui:VisualElement class="hutong-settings-card hutong-project-colors">
+            <ui:VisualElement class="hutong-editor-settings__header-row">
+                <ui:Label text="NODE COLORS" class="hutong-editor-settings__header" />
+            </ui:VisualElement>
+            <ui:Label text="Add named colors for this project. Editing a color does not change nodes already using it." class="hutong-project-colors__description" />
+            <ui:Toggle label="Show names in picker" class="hutong-setting" tooltip="Show names next to project colors in the node color picker. Names remain available on hover." binding-path="_showProjectColorNames" />
+            <ui:Toggle label="Auto-tint node titles" class="hutong-setting" tooltip="Use dark title text on bright node colors for better contrast." binding-path="_fsmGraphViewSettings._autoTintNodeTitles" />
+            <ui:VisualElement name="project-colors" />
+            <ui:VisualElement class="hutong-project-colors__actions">
+                <ui:Button name="add-project-color" text="Add Color" />
+                <ui:Button name="import-project-colors" text="Import..." tooltip="Import project colors from JSON. Choose Merge or Replace." />
+                <ui:Button name="export-project-colors" text="Export..." tooltip="Export project colors as JSON. Built-in colors are not included." />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="hutong-settings-card">
+            <ui:VisualElement class="hutong-editor-settings__header-row">
+                <ui:Label text="EDITOR FX" class="hutong-editor-settings__header" />
+            </ui:VisualElement>
+            <ui:Toggle label="Animation FX" class="hutong-setting" tooltip="Turn this off on slower systems if you notice low frame-rates in the editor." binding-path="_performanceSettings._animationFx" />
+            <ui:Toggle label="Animate foldouts" class="hutong-setting" tooltip="Animate opening/closing foldouts." binding-path="_animateFoldouts" />
+        </ui:VisualElement>
+        
+        <ui:VisualElement class="hutong-settings-card">
+            <ui:VisualElement class="hutong-editor-settings__header-row">
+                <ui:Label text="PROJECT DATABASE" class="hutong-editor-settings__header" />
+            </ui:VisualElement>
+            <ui:Toggle label="Scan project after importing package" class="hutong-setting" tooltip="Performs a full project scan after importing any unity package." binding-path="_projectDatabaseSettings._scanProjectAfterImportingPackage" />
+        </ui:VisualElement>    
+            
+        <ui:VisualElement class="hutong-settings-card">
+            <ui:VisualElement class="hutong-editor-settings__header-row">
+                <ui:Label text="CUSTOM CODE" class="hutong-editor-settings__header" />
+            </ui:VisualElement>
+            <ui:TextField label="Custom namespace" class="hutong-setting hutong-path" tooltip="Namespace used for generated code. Should be unique, e.g., com.yourdomain" binding-path="_customNamespace"/>
+            <ui:TextField label="Path for custom actions" class="hutong-setting hutong-path" tooltip="Where to save custom actions. Must be in Assets/" binding-path="_customActionsPath"/>
+            <ui:TextField label="Path for generated code" class="hutong-setting hutong-path" tooltip="Where to save generated code. Must be in Assets/" binding-path="_generatedCodePath"/>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="hutong-settings-card">
+            <ui:VisualElement class="hutong-editor-settings__header-row">
+                <ui:Label text="DIAGNOSTICS" class="hutong-editor-settings__header" />
+            </ui:VisualElement>
+            <ui:Toggle label="Usage finder diagnostics" class="hutong-setting" tooltip="Log slow usage finder operations. Enable only while troubleshooting usage finder hangs." binding-path="_usageFinderDiagnostics" />
+        </ui:VisualElement>
+
+            <ui:Button text="Reset All" display-tooltip-when-elided="true" name="reset-all-button" class="hutong-editor-settings__reset-all-button" />
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

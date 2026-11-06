@@ -1,0 +1,115 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.localization",
+    "_displayName": "Localization",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Localization",
+        "Packages/com.hutonggames.playmaker/Editor/Modules/Localization"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [
+        {
+            "Name": "com.unity.localization",
+            "MinimumVersion": "1.4.0",
+            "MaximumVersionExclusive": ""
+        }
+    ],
+    "_minimumUnityVersion": "2022.3",
+    "_summary": "Actions and variables for the Unity Localization package.",
+    "_description": "Select locales, load localized strings and assets by table reference, and respond to locale changes.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.localization@1.4/manual/index.html",
+    "_icon": "String",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Localization/HutongGames.PlayMaker.Localization.asmdef",
+            "_guid": "ac1d206ec89e4898967c80951b30f90f",
+            "_checkSum": "8a6563f4e40d8e823fc1d0e921ae0080"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Localization/TrackedFsmComponent.cs",
+            "_guid": "f748b0744c724d83ba9b78b07b2a4216",
+            "_checkSum": "fe958af2c121b272676489e7c5a1b626"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Localization/Actions/LocalizationGetAsset.cs",
+            "_guid": "bbc3a8267f4f48d6b894f5cb613c7ade",
+            "_checkSum": "e601e4d8e2af360f26558dc0744876ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Localization/Actions/LocalizationGetSelectedLocale.cs",
+            "_guid": "b6aeef5aa8da446baa71dc450aca37b3",
+            "_checkSum": "279caa119b6ab2abba58183df636f5b8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Localization/Actions/LocalizationGetString.cs",
+            "_guid": "160db2ec36f14ef4bc3b944d602b9575",
+            "_checkSum": "4fca04662bceea623e4bbe3e826f19ac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Localization/Actions/LocalizationLocaleChanged.cs",
+            "_guid": "c4cc32be36c7445cb6b4738396200c4f",
+            "_checkSum": "b1d429544a350e9949167326caf35d5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Localization/Actions/LocalizationSetSelectedLocale.cs",
+            "_guid": "4a602b6da37b47c0bf8014640b303df4",
+            "_checkSum": "67b7edabc59170e571c41a8194af71e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Localization/Variables/TableReference.cs",
+            "_guid": "1632ab83b525f734f919bc727a2ecdf1",
+            "_checkSum": "eae5f661647ca4bb0f5a313da5564e71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/Localization/HutongGames.PlayMaker.Localization.Editor.asmdef",
+            "_guid": "c56d6478c3a05fa469f73366bbefea7d",
+            "_checkSum": "448c5860ee0479fdde735e018b18fd6b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/Localization/LocalizationCategoryIconProvider.cs",
+            "_guid": "64bd49bd0ceb24d4e8f353da504c4b7c",
+            "_checkSum": "e3842be888dd6b81b3c62315a2d3ae66"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/Localization/LocalizationEntryField.cs",
+            "_guid": "eb177b22025243edad5b84ba3a769ec8",
+            "_checkSum": "1b6b165b77b781d577e04cc7284bdeee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/Localization/LocalizationGetStringEditor.cs",
+            "_guid": "66fcce6265a8464983ac884b5ff856ed",
+            "_checkSum": "264eb9bc4068a67f768325b062910da1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/Localization/TableReferenceDrawer.cs",
+            "_guid": "d58e7ed87f906d9409bbc92158bde217",
+            "_checkSum": "053d17717ca54a8b1d2df1896443007d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/Localization/TrackedFsmComponentDrawer.cs",
+            "_guid": "5ac9249a77fd4ddaaa13491660ad2870",
+            "_checkSum": "89552103f87b5c123d89f1f051f05904"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/Localization/TrackedFsmComponentEditor.cs",
+            "_guid": "ab03309df73544ee99bad0d6c633a3f3",
+            "_checkSum": "3c38c842da3c7fecfacadfba857a1987"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b92",
+    "_datePublished": "2026-10-24",
+    "_timeCode": 134373341121576329
+}
