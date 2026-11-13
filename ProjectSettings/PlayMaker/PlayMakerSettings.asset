@@ -40,7 +40,7 @@ MonoBehaviour:
     _useFilters: 1
   _projectDatabaseSettings:
     _scanProjectAfterImportingPackage: 1
-  _defaultColorPalette: {fileID: 0}
+  _defaultColorPalette: {fileID: 1, guid: e75e8b2f611c71c439b8fd06c09f3870, type: 2}
   _projectColors: []
   _showProjectColorNames: 1
   _variableTypes: []
