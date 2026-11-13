@@ -8,5 +8,95 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CubeRun.unity
     guid: b469a21b9876d984394e0e46b26beadb
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_00_Menu.unity
+    guid: 8e5ec6eb9fdf42449a64d7db8ffb5f0c
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_01_Hover.unity
+    guid: fc44c80e2e93d284c82d92a0d5cb6192
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_02_LightSwitch.unity
+    guid: b858da72281c1ea4faf4c506464400a1
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_03_ClickCycle.unity
+    guid: 4c4be33ac15949245a0a44ca52186016
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_04_Drag.unity
+    guid: 4eab3fdf7b7c7dc4b8362b339a8a6700
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_05_Throw.unity
+    guid: ee043387e9902684ba7f53f50e9a35e9
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_06_DragToSlot.unity
+    guid: 85cc252fc6082b74889fee93e8bf4250
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_07_Drawer.unity
+    guid: 31be8b8121741554687640a7b6800dfa
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_08_Slider.unity
+    guid: c9d967f15b0d607488e7c10d08a10c95
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_09_ClickToSpawn.unity
+    guid: f67e5f972e0e813438595a29ef0856d3
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_10_Poke.unity
+    guid: a35799f5eb6341e40ad7a5f84c1c7196
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_11_HoldToCharge.unity
+    guid: 08ca11d1ef98d2643830a19807957ac1
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_12_Tooltip.unity
+    guid: 9ff41e62f7fe2a14fb703c2fde8f8d76
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_13_ToggleGroup.unity
+    guid: 3f8e85040857e7d4e8c35a174f4046fb
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_14_DoubleClick.unity
+    guid: 74cb81a885cb0fc41b4affea91053aed
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_15_RightClick.unity
+    guid: 77fd71985d06d024298159719a78e5b0
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_16_MemoryPairs.unity
+    guid: 2beeb172a8df180498f3b2dc1ddd11c4
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_17_WhackAMole.unity
+    guid: 0a82ba6d4bf74f04e81236c791617ec2
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_18_Balloons.unity
+    guid: 1c3de36b57f46f1418505bb44d25feb1
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_19_HiddenObject.unity
+    guid: 2151cfc38e9f9344991b0ece16b3cc73
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_20_SnapToGrid.unity
+    guid: fe61782b1f0246447ad4c4b50998c6e9
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_21_Flashlight.unity
+    guid: 8168e641f65f9fc40b7cbb94c886747b
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_22_EyesThatFollow.unity
+    guid: ea75890c16e789b49a220767806c46e3
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_23_Paint.unity
+    guid: 2a53701bf35e4354aa0ed085d0cb6c88
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_24_Wind.unity
+    guid: ae5b992c5f7f63a4fa80d3b5e3f08dbb
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_25_ScrollWheel.unity
+    guid: 735803d2c18d9cc4686cee65472739de
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_26_XrayLens.unity
+    guid: bca1bac615f33454698d7158cdbf485b
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_27_Catch.unity
+    guid: 1daab377043edef44837a11da5f401e0
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_28_ShootingGallery.unity
+    guid: a871d6686c7365a47929325482d84f45
+  - enabled: 1
+    path: Assets/IMA_Pointer/Examples/Pointer_29_DominoRun.unity
+    guid: af02d020c96935c43ae4394a7cd2a827
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

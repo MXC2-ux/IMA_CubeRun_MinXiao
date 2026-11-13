@@ -1,0 +1,901 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4851233204089046153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4593021200027960617}
+  - component: {fileID: 783179787692576384}
+  - component: {fileID: 4774539940940820395}
+  - component: {fileID: 6978386833103547855}
+  - component: {fileID: 5936891300337463998}
+  m_Layer: 0
+  m_Name: Balloon Yellow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4593021200027960617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4851233204089046153}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8, y: 1, z: 0.8}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2765136120088217489}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &783179787692576384
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4851233204089046153}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &4774539940940820395
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4851233204089046153}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &6978386833103547855
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4851233204089046153}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d57bba3a47ebc0441b600be04796812f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5936891300337463998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4851233204089046153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1388120899, guid: af56af93b18e8464f9915f7a446a8088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PlayMaker.Runtime.dll::HutongGames.PlayMaker.FsmComponent
+  _assetGuid:
+    _value0: 15633925991549833704
+    _value1: 13068602747879038963
+  _instanceGuid:
+    _value0: 0
+    _value1: 0
+  _assetOwnerGuid: de733d28904b0d94c9f000c8599fb102
+  _fsm:
+    rid: 189612182157918815
+  _inputOverrides:
+    _overrides: []
+    _inputSyncMode: 0
+    Expanded: 0
+    Locked: 0
+    _editorOnlyList:
+      _items: []
+      _locked: 0
+  _outputVariables:
+    _outputs: []
+    Expanded: 0
+    Locked: 0
+    _editorOnlyList:
+      _items: []
+      _locked: 0
+  _disableLogging: 0
+  _disableVariableDiffs: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 189612182157918815
+      type: {class: FsmNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: Balloon
+        _guid:
+          _value0: 1996090898507325210
+          _value1: 1876305742188407885
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list: []
+          Expanded: 1
+          _editorOnlyList:
+            _items: []
+            _locked: 0
+        _transitions: []
+        _isEndState: 0
+        _isBreakpoint: 0
+        _regions:
+        - rid: 189612182157918816
+        EditorNodes: []
+        _variables:
+          _list:
+          - rid: 189612182157918817
+          _ownerValue:
+            rid: 189612182157918818
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 189612182157918819
+            _locked: 0
+        _events:
+          _list:
+          - rid: 189612182157918820
+          - rid: 189612182157918821
+          - rid: 189612182157918822
+          Expanded: 1
+          Locked: 0
+          _editorOnlyList:
+            _items:
+            - rid: 189612182157918823
+            - rid: 189612182157918824
+            - rid: 189612182157918825
+            _locked: 0
+        _loopCountLimit: 0
+        _resetVariables: 0
+        _pauseMode: 0
+        _dataVersion: 3
+        _inputs:
+          _owner: {fileID: 5936891300337463998}
+          Expanded: 0
+          _editorOnlyList:
+            _items: []
+            _locked: 0
+        _outputs:
+          _owner: {fileID: 5936891300337463998}
+          Expanded: 0
+          _editorOnlyList:
+            _items: []
+            _locked: 0
+        _outEvents:
+          _owner: {fileID: 5936891300337463998}
+          Expanded: 0
+          _editorOnlyList:
+            _items: []
+            _locked: 0
+        _sharedActionReferencesRepaired: 1
+    - rid: 189612182157918816
+      type: {class: RegionNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: Region
+        _guid:
+          _value0: 15650103586077371122
+          _value1: 17265774869835442002
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 170
+          height: 83
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _disabled: 0
+        _substates:
+        - rid: 189612182157918826
+        - rid: 189612182157918827
+        - rid: 189612182157918828
+        _transitions: []
+        _startState:
+          rid: 189612182157918826
+        _historyNode:
+          rid: -2
+        EditorNodes: []
+    - rid: 189612182157918817
+      type: {class: Vector3Variable, ns: HutongGames.PlayMaker, asm: HutongGames.PlayMaker}
+      data:
+        _guid:
+          _value0: 5795530062337369683
+          _value1: 10824282743563056726
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: position
+        _value: {x: 0, y: 0, z: 0}
+    - rid: 189612182157918818
+      type: {class: OwnerValue, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _guid:
+          _value0: 10570938929113961854
+          _value1: 2408536041987050976
+        _debug: 0
+        _saveMode: 0
+        _description: 
+        _name: 
+        _value: {fileID: 4851233204089046153}
+    - rid: 189612182157918819
+      type: {class: VariableItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _variable:
+          rid: 189612182157918817
+    - rid: 189612182157918820
+      type: {class: LocalEvent, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _type: 1
+        _name: Down
+        _data:
+          rid: -2
+        _description: 
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+    - rid: 189612182157918821
+      type: {class: GlobalEvent, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _type: 2
+        _name: Popped
+        _data:
+          rid: -2
+        _description: 
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        _eventAsset: {fileID: 11400000, guid: 4a355a14cef773e489030100c09bc3d4, type: 2}
+        _guid: 4a355a14cef773e489030100c09bc3d4
+    - rid: 189612182157918822
+      type: {class: FinishedEvent, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _type: 3
+        _name: FINISHED
+        _data:
+          rid: -2
+        _description: 
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+    - rid: 189612182157918823
+      type: {class: EventItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _baseEvent:
+          rid: 189612182157918822
+        _expanded: 0
+    - rid: 189612182157918824
+      type: {class: EventItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _baseEvent:
+          rid: 189612182157918820
+        _expanded: 0
+    - rid: 189612182157918825
+      type: {class: EventItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _baseEvent:
+          rid: 189612182157918821
+        _expanded: 0
+    - rid: 189612182157918826
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: Rise
+        _guid:
+          _value0: 7567773912237556867
+          _value1: 9429869475522156572
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 180
+          y: 100
+          width: 0
+          height: 0
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list:
+          - rid: 189612182157918829
+          - rid: 189612182157918830
+          - rid: 189612182157918831
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 189612182157918832
+            - rid: 189612182157918833
+            - rid: 189612182157918834
+            _locked: 0
+        _transitions:
+        - _name: Down
+          _guid:
+            _value0: 17064572153089955442
+            _value1: 16443554767811727389
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 189612182157918820
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 189612182157918827
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        - _name: FINISHED
+          _guid:
+            _value0: 5447364272055023866
+            _value1: 1544693214812085719
+          _description: 
+          _position:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          _icon: {fileID: 0}
+          _color:
+            serializedVersion: 2
+            rgba: 4286085240
+          IsLocked: 0
+          _fitContents: 1
+          _attachedNodeIds: []
+          _attachedNodes: []
+          _event:
+            rid: 189612182157918822
+          _eventDataGetter:
+            rid: -2
+          _eventSentByGetter:
+            rid: -2
+          _toState:
+            rid: 189612182157918828
+          _skipActiveState: 0
+          _linkStyle: 0
+          _linkRoute: 0
+          _linkEnd: 0
+          _attachToTarget: 0
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 189612182157918827
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: Pop
+        _guid:
+          _value0: 17823006970801081812
+          _value1: 15905787856892139241
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 180
+          y: 250
+          width: 0
+          height: 0
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list:
+          - rid: 189612182157918835
+          - rid: 189612182157918836
+          - rid: 189612182157918837
+          - rid: 189612182157918838
+          - rid: 189612182157918839
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 189612182157918840
+            - rid: 189612182157918841
+            - rid: 189612182157918842
+            - rid: 189612182157918843
+            - rid: 189612182157918844
+            _locked: 0
+        _transitions: []
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 189612182157918828
+      type: {class: StateNode, ns: HutongGames.PlayMaker.FSM, asm: PlayMaker.Runtime}
+      data:
+        _name: Gone
+        _guid:
+          _value0: 9563949155718094776
+          _value1: 184585989340192209
+        _description: 
+        _position:
+          serializedVersion: 2
+          x: 460
+          y: 250
+          width: 0
+          height: 0
+        _icon: {fileID: 0}
+        _color:
+          serializedVersion: 2
+          rgba: 4286085240
+        IsLocked: 0
+        _fitContents: 1
+        _attachedNodeIds: []
+        _attachedNodes: []
+        _actionList:
+          _list:
+          - rid: 189612182157918845
+          Expanded: 1
+          _editorOnlyList:
+            _items:
+            - rid: 189612182157918846
+            _locked: 0
+        _transitions: []
+        _isEndState: 0
+        _isBreakpoint: 0
+    - rid: 189612182157918829
+      type: {class: TransformTranslate__XYZ, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 3
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _transform:
+          _variable:
+            rid: 189612182157918818
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 0
+        _x:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _y:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 1.2
+          _isConstant: 1
+        _z:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _relativeTo:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 189612182157918830
+      type: {class: OnPointerDownEvent, ns: HutongGames.PlayMaker.Actions.EventSystems, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 16
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _sendEvent:
+          _event:
+            rid: 189612182157918820
+          _eventDataSetter:
+            rid: -2
+        _pointerEventData:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+        _button: 0
+    - rid: 189612182157918831
+      type: {class: WaitForSeconds, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 515
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        Seconds:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 9
+          _isConstant: 1
+        UseRealtime:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 189612182157918832
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 189612182157918829
+        _fullTypeName: HutongGames.PlayMaker.Actions.TransformTranslate__XYZ
+    - rid: 189612182157918833
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 189612182157918830
+        _fullTypeName: HutongGames.PlayMaker.Actions.EventSystems.OnPointerDownEvent
+    - rid: 189612182157918834
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 189612182157918831
+        _fullTypeName: HutongGames.PlayMaker.Actions.WaitForSeconds
+    - rid: 189612182157918835
+      type: {class: TransformGetPosition, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        Transform:
+          _variable:
+            rid: 189612182157918818
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 0
+        GetPosition:
+          _variable:
+            rid: 189612182157918817
+          _isWriteOnly: 0
+    - rid: 189612182157918836
+      type: {class: AudioSourcePlayClipAtPoint, ns: HutongGames.PlayMaker.Actions.Audio, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        _clip:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 8300000, guid: 87cd7a52385c12c4284308cec484917a, type: 3}
+          _isConstant: 1
+        _position:
+          _variable:
+            rid: 189612182157918817
+          _isWriteOnly: 0
+          _value: {x: 0, y: 0, z: 0}
+          _isConstant: 0
+        _volume:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 1
+          _isConstant: 1
+    - rid: 189612182157918837
+      type: {class: GameObjectInstantiateAtTransform, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        CloneGameObject:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 4969724912426307651, guid: fdeeed3c9f653e74b893f4d01b3b04b7, type: 3}
+          _isConstant: 1
+        AtTransform:
+          _variable:
+            rid: 189612182157918818
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 0
+        SetParent:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 1
+        StoreCreatedObject:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+        SelectInEditor:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 189612182157918838
+      type: {class: SendEventToScenePath, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        Delay:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        Event:
+          _event:
+            rid: 189612182157918821
+          _eventDataSetter:
+            rid: -2
+        ScenePath:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: '**/Board'
+          _isConstant: 1
+        FsmName:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: Count
+          _isConstant: 1
+    - rid: 189612182157918839
+      type: {class: GameObjectDestroy, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        GameObject:
+          _variable:
+            rid: 189612182157918818
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 0
+        Delay:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 189612182157918840
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 189612182157918835
+        _fullTypeName: HutongGames.PlayMaker.Actions.TransformGetPosition
+    - rid: 189612182157918841
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 189612182157918836
+        _fullTypeName: HutongGames.PlayMaker.Actions.Audio.AudioSourcePlayClipAtPoint
+    - rid: 189612182157918842
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 189612182157918837
+        _fullTypeName: HutongGames.PlayMaker.Actions.GameObjectInstantiateAtTransform
+    - rid: 189612182157918843
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 189612182157918838
+        _fullTypeName: HutongGames.PlayMaker.Actions.SendEventToScenePath
+    - rid: 189612182157918844
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 189612182157918839
+        _fullTypeName: HutongGames.PlayMaker.Actions.GameObjectDestroy
+    - rid: 189612182157918845
+      type: {class: GameObjectDestroy, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        GameObject:
+          _variable:
+            rid: 189612182157918818
+          _isWriteOnly: 0
+          _value: {fileID: 0}
+          _isConstant: 0
+        Delay:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+    - rid: 189612182157918846
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 189612182157918845
+        _fullTypeName: HutongGames.PlayMaker.Actions.GameObjectDestroy
+--- !u!1 &7165009124870072417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2765136120088217489}
+  - component: {fileID: 4309658834777464792}
+  - component: {fileID: 3884887062262834256}
+  m_Layer: 0
+  m_Name: String
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2765136120088217489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7165009124870072417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.95, z: 0}
+  m_LocalScale: {x: 0.03, y: 0.9, z: 0.03}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4593021200027960617}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4309658834777464792
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7165009124870072417}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3884887062262834256
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7165009124870072417}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 972018de51dc89349854d966072af4a8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
