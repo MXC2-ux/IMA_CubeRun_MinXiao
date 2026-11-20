@@ -16546,7 +16546,7 @@ MonoBehaviour:
           _eventDataGetter:
             rid: -2
           _eventSentByGetter:
-            rid: 2473876341540520861
+            rid: -2
           _toState:
             rid: 189612341964046974
           _skipActiveState: 0
@@ -16641,7 +16641,7 @@ MonoBehaviour:
           _variable:
             rid: -2
           _isWriteOnly: 0
-          _value: 0.25
+          _value: 0.1
           _isConstant: 1
     - rid: 189612341964046976
       type: {class: SliderSetValue, ns: HutongGames.PlayMaker.Actions.UI, asm: HutongGames.PlayMaker}
@@ -16700,17 +16700,6 @@ MonoBehaviour:
         _action:
           rid: 189612341964046977
         _fullTypeName: HutongGames.PlayMaker.Actions.Audio.AudioSourcePlay
-    - rid: 2473876341540520861
-      type: {class: EventSentByGetter, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
-      data:
-        _gameObject:
-          _variable:
-            rid: -2
-          _isWriteOnly: 1
-        _fsmComponent:
-          _variable:
-            rid: -2
-          _isWriteOnly: 1
 --- !u!1001 &1553136547
 PrefabInstance:
   m_ObjectHideFlags: 0
