@@ -98,5 +98,77 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/IMA_Pointer/Examples/Pointer_29_DominoRun.unity
     guid: af02d020c96935c43ae4394a7cd2a827
+  - enabled: 1
+    path: Assets/IMA_Character/Playground.unity
+    guid: ef3bbbb00e3be48439ceddd44b631271
+  - enabled: 1
+    path: Assets/IMA_Character/Title.unity
+    guid: dcf3ec1841dbc2942aa20e370cbfd943
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_00_Blocks.unity
+    guid: 66285604f2046ab41a723127b7f83785
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_01_Coins_and_gate.unity
+    guid: 33199403bf505ad4a9c824d1259dbe8b
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_02_Finish.unity
+    guid: 79bc38b9ca651a2488f0804536b40546
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_03_Checkpoint_and_hazard.unity
+    guid: d20ac30bd5f10ad45ad15636bbe2b69b
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_04_Jump_pad.unity
+    guid: 0c54675860a9e2345808732583dfd33f
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_05_Automatic_door.unity
+    guid: 199947b0c0629144596b6889194c2bc0
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_06_Key_and_locked_door.unity
+    guid: d47d8fd97b9e90941aa88a56794e39c2
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_07_Patrol.unity
+    guid: 056820439005d2c4cbdc89a3519da9b9
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_08_Moving_platform.unity
+    guid: 82242580b09bd184ebcbe57e59035c36
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_09_Falling_tiles.unity
+    guid: 8b61be23170346a4c99aca5673b3eb5c
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_10_Plate_crate_and_gate.unity
+    guid: d73ae783a2fae644793026dc87989a8a
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_11_Things_to_shove.unity
+    guid: f1887802307e6914fbddd01c972b54be
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_12_Countdown.unity
+    guid: 4b7f4a2aa6483604eb2a73b303549034
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_13_Stopwatch.unity
+    guid: e8bf6e91972b2f148a7142953db04966
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_14_Score.unity
+    guid: 5d68062244f7ea14baa77f8f625d3ae5
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_15_Progress_bar.unity
+    guid: d9ab904cd35210a4fabec929e3928482
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_16_Three_hearts.unity
+    guid: 11121fbb39bad6442a5020afde96f637
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_17_Health_bar.unity
+    guid: a68ea5157f110134e868d40ced06247c
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_18_Message.unity
+    guid: 6df5eafa5bec2a54389ffe58825bb53a
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_19_Sign_to_read.unity
+    guid: ef4a1dc85a561804684f1a61843f8ab4
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_20_Pause_menu.unity
+    guid: b4f3fe7bd218aca4a844d74e53420b1c
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_21_End_screen.unity
+    guid: 9e5a095ab57a25e4788dce2543261092
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

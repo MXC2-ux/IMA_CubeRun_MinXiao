@@ -8,6 +8,8 @@ TagManager:
   - Goal
   - RED
   - WHITE
+  - Hazard
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
